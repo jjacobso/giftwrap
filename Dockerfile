@@ -6,7 +6,7 @@ RUN apt-get update && \
 
 RUN gem install --no-ri --no-rdoc fpm
 
-ADD https://get.docker.com/builds/Linux/x86_64/docker-latest /usr/local/bin/docker
+ADD https://get.docker.com/builds/Linux/x86_64/docker /usr/local/bin/docker
 
 RUN chmod +x /usr/local/bin/docker
 
